@@ -106,7 +106,7 @@ def stats(start=None, end=None):
     return jsonify(temps=temps)
 
 ############################
-# 6. Define main behavior
+# Define main behavior
 ############################
 if __name__ == "__main__":
     app.run(debug=True)
